@@ -16,3 +16,10 @@ add_executable(App ${SOURCES})
 target_link_libraries(App glfw)
 target_link_libraries(App glad)
 target_link_libraries(App glm)
+
+add_custom_target(copy_directory ALL
+    COMMAND ${CMAKE_COMMAND} -E copy_directory
+        ${CMAKE_CURRENT_SOURCE_DIR}/Shaders
+        ${CMAKE_CURRENT_BINARY_DIR}/Shaders
+    COMMENT "Copying..."
+)
