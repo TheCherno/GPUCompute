@@ -10,6 +10,9 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+gladsources/
+libglad.a
+App/App
 
 # Visual Studio
 .vs/
