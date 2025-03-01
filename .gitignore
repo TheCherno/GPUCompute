@@ -12,6 +12,7 @@ _deps
 CMakeUserPresets.json
 gladsources/
 libglad.a
+App/App
 
 # Visual Studio
 .vs/
