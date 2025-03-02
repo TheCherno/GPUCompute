@@ -15,4 +15,3 @@ set(SOURCES
 add_executable(App ${SOURCES})
 target_link_libraries(App glfw)
 target_link_libraries(App glad)
-target_link_libraries(App glm)
