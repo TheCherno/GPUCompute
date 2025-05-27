@@ -10,6 +10,7 @@ cmake ..
 ```
 
 Tested on Windows 11 using Visual Studio 2022, more testing to follow.
+Tested on Linux.
 
 ## Third-Party Dependencies
 Uses the following third-party dependencies:
